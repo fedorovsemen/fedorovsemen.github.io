@@ -35,8 +35,8 @@ nav{
    
 }
 .main{
-    width: 1200px;
-    height: 700px;
+    width: 1400px;
+    height: 690px;
     background: url(../img/killua-min.png) no-repeat right;}
 .tittle__container h1
 {
@@ -56,7 +56,7 @@ nav{
     border: 1px solid #0F2673;
     margin: 5px;
     border-radius: 7px;
-    background-color: white;
+    background-color: 
     font-weight: 600;
     color: #0F2673;
 }
@@ -64,7 +64,7 @@ nav{
    width: 100%;
     height: 520px;
     text-align: center;
-    background-color:#FDFDFD ;
+    background-color:azure ;
    
 }
     
@@ -77,7 +77,8 @@ nav{
    color:#0F2673 ;
     font-weight: 600;
    text-transform:uppercase ;
-    text-align:right;
+    text-align:right; 
+    padding-top: 15px;
    
 }
 .round{
@@ -95,7 +96,302 @@ nav{
   margin: auto auto auto auto;
     
 }
+
+.nomber>p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: #263244;
+
+}
+
+   
     
+}
+.big{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #0F2673;
+    font-weight: 600;
+    
+    
+}
+.big h2{
+    float: left;
+    line-height: 60px;
+    margin-right: 40px;
+    font-size: 15px;
+    text-transform: uppercase; 
+    margin: 30px;
+}
+.nomber{
+    width: 100%;
+    height: 400px;
+    background: url(../img/%D1%84%D0%BE%D0%BD.jpg)
+}
+
+.div{
+   float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+   margin: 94px;
+    
+}
+.divv{
+   float: left;
+    width: 200px;
+    text-align: center;  
+    margin-left:150px;
+     margin: 94px;
+    
+}
+.divvv{
+     float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+     margin: 94px;
+        
+}
+.divvvv{
+   float: left;
+    width: 200px;
+    text-align: center; 
+    margin-left: 150px;
+     margin: 94px;        
+
+}
+.cases{
+    width: 100%;
+    height: 900px;
+   background-color: white;
+    font-size: 15px;
+     background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+.case{
+    text-align: center;
+    padding: 30px;
+    font-family: sans-serif;
+    color: #db7e56;
+    font-weight: 600;
+    font-size: 23px;
+}
+.case_lorem{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.cases h3{
+    font-size: 20px;
+    font-weight: 500;
+ 
+}
+.name_projectt{
+border: 1px solid black;
+    height: 70px;
+    width: 800px;
+}
+
+.visit{
+    background-color: #cbd7d6;
+    background-size:auto;
+    font-weight: 600;
+}
+.mm{
+    height: 700px;
+    width: 100%;
+   
+    
+}
+
+.m{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+    font-weight: 540;
+    
+}
+.money{
+    text-align: center;
+    font-size: 30px;
+    margin: 35px;
+}
+.mmm{
+  padding-left: 20px;
+    margin-left: 350px;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 38px;
+    width: 891px;
+    background-color: #eeeeee;
+   
+}
+.time{
+    margin-left: 350px;
+   margin-top: 35px; 
+    font-size: 20px;
+}
+
+.statistics{
+    height: 370px;
+    background: url(../img/%D1%84%D0%BE%D0%BD.jpg);
+         color: #323e4f;
+}
+.w
+{
+    text-align: center;
+    font-size:25px;
+    font-weight: 500;
+   
+}
+.ww
+{float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+   margin: 94px;
+   font-size: 22px;
+    }
+.www
+{float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+  margin: 94px;
+      font-size: 22px;
+    
+    }
+.wwww
+{float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+ margin: 94px;
+      font-size: 22px;
+    }
+.wwwww
+{float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+  margin: 94px;
+       font-size: 20px;
+    }
+.reviews{
+    height: 450px;
+    width: 100%;
+    background: url(../img/%D0%9E%D1%80%D0%B0%D0%BD%D0%B6.jpg) no-repeat 765px 400px,
+   url(../img/15.jpg) no-repeat 780px 400px,
+        url(../img/15.jpg) no-repeat 795px 400px;
+    
+       
+  
+   
+}
+.reviewss{
+    text-align: center;
+    color: #323e4f;
+   padding: 30px;
+    font-size: 30px;
+}
+.man{
+margin-left: 47%;
+    margin-top: 40px;
+}
+.aa{
+    text-align: center;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.reviews h3{
+    text-align: center;
+}
+.my_nomber{
+    height: 600px;
+  
+}
+.contakt{
+    font-size: 25px;
+    text-align: center;
+    padding: 70px;
+    background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg) no-repeat 755px 130px;
+}
+.ooo{
+    text-align: center;
+}
+.r{float: left;
+    width: 320px;
+    text-align: center;
+    margin-left: 190px;
+   margin: 94px;
+   font-size: 20px;
+    margin-top: 40px;
+       
+}
+.rr{float: left;
+    width: 320px;
+    text-align: center;
+    margin-left: 190px;
+   margin: 94px;
+   font-size: 20px;
+margin-top: 40px;
+}
+.rrr{float: left;
+    width: 320px;
+    text-align: center;
+    margin-left: 190px;
+   margin: 94px;
+   font-size: 20px;
+margin-top: 40px;}
+.h{
+    text-align: center;
+   
+}
+.i{padding-left: 25px;
+   margin-left: 60px;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 30px;
+    width: 375px;
+    background-color: #eeeeee;
+    margin: 15px;
+   }
+.ii{
+    padding-left: 20px;
+  margin-left: 8px;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 30px;
+    width: 370px;
+    background-color: #eeeeee;
+      margin: 15px;
+   
+}
+.iii{
+   float: none;
+    margin-left: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 80px;
+    width: 760px;
+    background-color: #eeeeee;
+     margin: 15px;
+    padding-left: 20px;
+}
+.q{
+margin-left: 630px;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 25px;
+}
+
 
 
 
