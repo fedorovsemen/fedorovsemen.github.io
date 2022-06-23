@@ -1,57 +1,85 @@
-body{
+body {
     font-family: Arial;
     background-color: azure;
 }
-nav{
+
+nav {
     width: 100%;
     height: 60px;
     background: #0F2673;
+    position: fixed;
 }
-.logo{
+
+.logo {
     color: white;
     font-size: 30px;
     line-height: 60px;
     padding-left: 370px;
-    float: left;   
+    float: left;
+    -webkit-animation: logo 1.5s;
+    -o-animation: logo 1.5s;
+    animation: logo 1.5s;
 }
-.menu{
+
+.menu {
     float: left;
     padding-left: 440px;
     color: white;
+   -webkit-animation: li 0.7s   forwards;
+    -o-animation: li  0.7s forwards;
+    animation: li  0.7s forwards;
+opacity: 0;
+    
+
 }
-.menu li{
+
+.menu li a {
     float: left;
     line-height: 60px;
     margin-right: 40px;
     font-size: 15px;
     text-transform: uppercase;
+     
 }
 
-.tittle__container{
+.tittle__container {
     padding: 350px;
     padding-bottom: 0px;
     float: left;
     color: #0F2673;
     text-align: center;
-   
+       -webkit-animation: im 1s ;
+    -o-animation:im 1s ;
+    animation:im 1s ;
+    
+    
+
 }
-.main{
+
+.main {
     width: 1400px;
-    height: 690px;
-    background: url(../img/killua-min.png) no-repeat right;}
-.tittle__container h1
-{
- font-size: 40px;
-    font-weight: 550;
+    height: 800px;
+    background: url(../img/killua-min.png) no-repeat right;
 }
-.tittle__container h3{
+
+.tittle__container h1 {
+    font-size: 40px;
+    font-weight: 550;
+    
+   
+    
+}
+
+.tittle__container h3 {
     font-size: 17px;
     font-weight: 400;
 }
-.hhh{
+
+.hhh {
     margin: 15px;
 }
-.tittle__container input{
+
+.tittle__container input {
     height: 25px;
     text-align: center;
     border: 1px solid #0F2673;
@@ -61,118 +89,125 @@ nav{
     font-weight: 600;
     color: #0F2673;
 }
-.me{
-   width: 100%;
+
+.me {
+    width: 100%;
     height: 450px;
-   text-align: center;
-    background-color:azure ;
-   
+
+    text-align: center;
+    background-color: azure;
+
 }
-    
 
 
-   
-   
 
-.lorem{
+.lorem {
     margin-left: 275px;
     text-align: center;
     width: 1000px;
 }
-.rt{
-     height: 70px;
-   
+
+.rt {
+    height: 70px;
+
+    width: 1050px;
     width: 100%;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 30px;
-   color:#0F2673 ;
+    color: #0F2673;
     font-weight: 600;
-   text-transform:uppercase ;
-    text-align:center; 
-padding-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-left: 50px;
+    margin-bottom: 1px;
+    padding-top: 25px;
     margin-left: 10px;
-   
-    
+
+
 }
 
-.nomber>p{
+.nomber > p {
     font-size: 30px;
     text-align: center;
     padding-top: 30px;
     color: #263244;
-
 }
 
-   
-    
 
-.big{
+.big {
     text-align: center;
     font-size: 30px;
     font-family: sans-serif;
     color: #0F2673;
     font-weight: 600;
-    
-    
+
+
 }
-.big h2{
+
+.big h2 {
     float: left;
     line-height: 60px;
     margin-right: 40px;
     font-size: 15px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     margin: 30px;
 }
-.nomber{
+
+.nomber {
     width: 100%;
     height: 400px;
     background: url(../img/%D1%84%D0%BE%D0%BD.jpg)
 }
 
-.div{
-   float: left;
+.div {
+    float: left;
     width: 200px;
     text-align: center;
     margin-left: 150px;
-   margin: 94px;
-    
-}
-.divv{
-   float: left;
-    width: 200px;
-    text-align: center;  
-    margin-left:150px;
-     margin: 94px;
-    
-}
-.divvv{
-     float: left;
-    width: 200px;
-    text-align: center;
-    margin-left: 150px;
-     margin: 94px;
-        
-}
-.divvvv{
-   float: left;
-    width: 200px;
-    text-align: center; 
-    margin-left: 150px;
-     margin: 94px;        
+    margin: 94px;
 
 }
-.cases{
+
+.divv {
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+    margin: 94px;
+
+}
+
+.divvv {
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+    margin: 94px;
+
+}
+
+.divvvv {
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+    margin: 94px;
+}
+
+.cases {
     width: 100%;
     height: 950px;
-   background-color: white;
+    background-color: white;
     font-size: 15px;
-     background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
-    
+
 }
-.case{
+
+.case {
     text-align: center;
     padding: 30px;
     font-family: sans-serif;
@@ -180,32 +215,41 @@ padding-top: 25px;
     font-weight: 600;
     font-size: 23px;
 }
-.case_lorem{
+
+.case_lorem {
     text-align: center;
+    padding-bottom: 30px;
     padding-bottom: 20px;
 }
-.cases h3{
+
+.cases h3 {
     font-size: 20px;
     font-weight: 500;
- 
-}
-.name_projectt{
 
+}
+
+.name_projectt {
     height: 70px;
     width: 800px;
     margin-left: 550px;
-   padding-top: 10px;
+    padding-top: 10px;
     font-weight: 600;
 }
-.name_project{
+
+.name_project {
     margin-left: 535px;
     padding: 15px;
-      padding-top: 10px;
-      font-weight: 600;
+    padding-top: 10px;
+    font-weight: 600;
 }
 
-.visit{
-   margin-top: -85px;
+.visit {
+    background-color: #cbd7d6;
+    background-size: auto;
+    font-weight: 800;
+    border: 0.1px solid #000;
+    margin: 10px;
+    margin-top: -85px;
     margin-left: 13px;
     display: block;
     width: 150px;
@@ -217,224 +261,405 @@ padding-top: 25px;
     font-size: 20px;
     border-radius: 8px;
 
-  
-}
-.mm{
-    height: 700px;
-    width: 100%;
-   
-    
+
 }
 
-.m{
+.mm {
+    height: 700px;
+    width: 100%;
+
+
+}
+
+.m {
     font-size: 20px;
     text-align: center;
     margin: 50px;
     font-weight: 540;
-    
+
 }
-.money{
+
+.money {
     text-align: center;
     font-size: 30px;
     margin: 35px;
 }
-.mmm{
-  padding-left: 20px;
+
+.mmm {
+    padding-left: 20px;
     margin-left: 350px;
     font-size: 20px;
     border: 1px solid black;
     height: 38px;
     width: 891px;
     background-color: #eeeeee;
-   
+
 }
-.time{
+
+.time {
     margin-left: 350px;
-   margin-top: 35px; 
+    margin-top: 35px;
     font-size: 20px;
 }
 
-.statistics{
+.statistics {
     height: 370px;
     background: url(../img/%D1%84%D0%BE%D0%BD.jpg);
-         color: #323e4f;
+    color: #323e4f;
 }
-.w
-{
+
+.w {
     text-align: center;
-    font-size:25px;
+    font-size: 25px;
     font-weight: 500;
-   
+
 }
-.ww
-{float: left;
+
+.ww {
+    float: left;
     width: 200px;
     text-align: center;
     margin-left: 150px;
-   margin: 94px;
-   font-size: 22px;
-    }
-.www
-{float: left;
+    margin: 94px;
+    font-size: 22px;
+}
+
+.www {
+    float: left;
     width: 200px;
     text-align: center;
     margin-left: 150px;
-  margin: 94px;
-      font-size: 22px;
-    
-    }
-.wwww
-{float: left;
+    margin: 94px;
+    font-size: 22px;
+
+}
+
+.wwww {
+    float: left;
     width: 200px;
     text-align: center;
     margin-left: 150px;
- margin: 94px;
-      font-size: 22px;
-    }
-.wwwww
-{float: left;
+    margin: 94px;
+    font-size: 22px;
+}
+
+.wwwww {
+    float: left;
     width: 200px;
     text-align: center;
     margin-left: 150px;
-  margin: 94px;
-       font-size: 20px;
-    }
-.reviews{
+    margin: 94px;
+    font-size: 20px;
+}
+
+.reviews {
     height: 450px;
     width: 100%;
     background: url(../img/%D0%9E%D1%80%D0%B0%D0%BD%D0%B6.jpg) no-repeat 765px 400px,
-   url(../img/15.jpg) no-repeat 780px 400px,
+        url(../img/15.jpg) no-repeat 780px 400px,
         url(../img/15.jpg) no-repeat 795px 400px;
-    
-       
-  
-   
+
+
+
+
 }
-.reviewss{
+
+.reviewss {
     text-align: center;
     color: #323e4f;
-   padding: 30px;
+    padding: 30px;
     font-size: 30px;
 }
-.man{
-margin-left: 47%;
+
+.man {
+    margin-left: 47%;
     margin-top: 40px;
 }
-.aa{
+
+.aa {
     text-align: center;
-    margin-left: 200px ;
+    margin-left: 200px;
     margin-right: 200px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.reviews h3{
+
+.reviews h3 {
     text-align: center;
 }
-.my_nomber{
+
+.my_nomber {
+    height: 600px;
     height: 650px;
-  
+
 }
-.contakt{
+
+.contakt {
     font-size: 25px;
     text-align: center;
     padding: 70px;
     background: url(../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg) no-repeat 755px 130px;
 }
-.ooo{
+
+.ooo {
     text-align: center;
 }
-.r{float: left;
+
+.r {
+    float: left;
     width: 320px;
     text-align: center;
     margin-left: 190px;
-   margin: 94px;
-   font-size: 20px;
+    margin: 94px;
+    font-size: 20px;
     margin-top: 40px;
-       
+
 }
-.rr{float: left;
+
+.rr {
+    float: left;
     width: 320px;
     text-align: center;
     margin-left: 190px;
-   margin: 94px;
-   font-size: 20px;
-margin-top: 40px;
+    margin: 94px;
+    font-size: 20px;
+    margin-top: 40px;
 }
-.rrr{float: left;
+
+.rrr {
+    float: left;
     width: 320px;
     text-align: center;
     margin-left: 190px;
-   margin: 94px;
-   font-size: 20px;
-margin-top: 40px;}
-.h{
-    text-align: center;
-   
+    margin: 94px;
+    font-size: 20px;
+    margin-top: 40px;
 }
-.i{padding-left: 25px;
-   margin-left: 60px;
+
+.h {
+    text-align: center;
+
+}
+
+.i {
+    padding-left: 25px;
+    margin-left: 60px;
     font-size: 20px;
     border: 1px solid black;
     height: 30px;
     width: 375px;
     background-color: #eeeeee;
     margin: 15px;
-   }
-.ii{
+}
+
+.ii {
     padding-left: 20px;
-  margin-left: 8px;
+    margin-left: 8px;
     font-size: 20px;
     border: 1px solid black;
     height: 30px;
     width: 370px;
     background-color: #eeeeee;
-      margin: 15px;
-   
+    margin: 15px;
+
 }
-.iii{
-   float: none;
+
+.iii {
+    float: none;
     margin-left: 200px;
     font-size: 20px;
     border: 1px solid black;
     height: 80px;
     width: 760px;
     background-color: #eeeeee;
-     margin: 15px;
+    margin: 15px;
     padding-left: 20px;
 }
-.q{
-margin-left: 630px;
+
+.q {
+    margin-left: 630px;
     font-size: 25px;
     font-weight: 500;
     padding: 25px;
 }
-.killua{
-margin-left: -300px;
-   height: 150px;
+
+.killua {
+    margin-left: -300px;
+    height: 150px;
     width: 150px;
     border-radius: 50%;
     margin: 20px;
-     
-  
+
+
 }
 
-.portfolio{ padding-top: 110px; padding-bottom: 128px; } .portfolio_container{ width: 1170px; margin: 0 auto; } .portfolio_container h2{ text-align: center; width: 214px; font-size: 33px; margin: 0px auto 30px; padding-bottom: 5px; text-transform: uppercase;}
-.portfolio_container hr{ height: 4px; border: none; background: #d17700; width: 80px; margin: 0 auto 40px; } .portfolio_subscription{ text-align: center; font-size: 16px; margin-bottom: 40px; } .portfolio_container img{ width: 100%; margin-bottom: 40px; }.description_left{ width: 200px; float: left; margin-right: 82px; } .description_left h3{ font-size: 25px; } .description_left p{ font-size: 17px; margin: 16px 0; } .description_left a{ margin-top: 25px; display: block; width: 100%; background: #63b5ae; height: 44px; line-height: 44px; text-align: center; color: white; font-size: 20px; border-radius: 8px; } .description_right h4{ font-size: 25px; margin-bottom: 10px; } .description_right p{ font-size: 20px;
+.z {
+    margin: 13px;
+    font-weight: 600;
+}
+
+.zz {
+    margin-left: 13px;
+    font-weight: 600;
+}
+
+.zx {
+    margin: 13px;
+    font-weight: 600;
+}
+
+.zxc {
+    margin-left: 13px;
+    font-weight: 600;
+}
 
 
 
 
 
 
+.portfolio {
+    padding-top: 110px;
+    padding-bottom: 128px;
+}
+
+.portfolio_container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.portfolio_container h2 {
+    text-align: center;
+    width: 214px;
+    font-size: 33px;
+    margin: 0px auto 30px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.portfolio_container hr {
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin: 0 auto 40px;
+}
+
+.portfolio_subscription {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.portfolio_container img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.description_left {
+    width: 200px;
+    float: left;
+    margin-right: 82px;
+}
+
+.description_left h3 {
+    font-size: 25px;
+}
+
+.description_left p {
+    font-size: 17px;
+    margin: 16px 0;
+}
+
+.description_left a {
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    background: #63b5ae;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.description_right h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.description_right p {
+    font-size: 20px;
+}
+
+.menu li a {
+    transition: all 0.2s;
+    color: white;
+
+    display: inline-block;
+}
+
+.menu li a:visited {
+    color: white;
+    animation-name: li;
+    animation-duration: 0.5s;
+}
+
+.menu li a:hover {
+    color: #d7a1f5;
+    transform: scale(1.1)
+}
+
+.tittle__container input {
+    transition: all 0.2s;
+    transform: scale(1)
+}
+
+.tittle__container input:hover {
+    background: #0F2673;
+    color: white;
+}
+
+.tittle__container input:active {
+    transform: scale(1.1)
+}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes li{
+    from{opacity: 0;
+        
+    }
+    to{opacity: 1;
+    }
+}
+
+.menu li:nth-child(first){transition-delay: 0.5s}
+.menu li:nth-child(2){transition-delay: 1s}
+.menu li:nth-child(3){transition-delay: 1.5s}
+.menu li:nth-child(4){transition-delay: 2s}
+@keyframes im{
+    from{opacity: 0;
+   }
+    to{
+        opacity: 1;
+          
+    }
+}
 
 
 
 
-
-
-
-
-
-
-    
 
