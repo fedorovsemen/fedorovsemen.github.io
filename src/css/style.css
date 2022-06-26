@@ -1,13 +1,20 @@
+
 body {
     font-family: Arial;
     background-color: azure;
+    perspective: 1px;
+   
 }
+
+html {
+    height: 100%;}
 
 nav {
     width: 100%;
     height: 60px;
     background: #0F2673;
     position: fixed;
+   
 }
 
 .logo {
@@ -19,17 +26,21 @@ nav {
     -webkit-animation: logo 1.5s;
     -o-animation: logo 1.5s;
     animation: logo 1.5s;
+
 }
 
 .menu {
     float: left;
     padding-left: 440px;
-    color: white;
-   -webkit-animation: li 0.7s   forwards;
-    -o-animation: li  0.7s forwards;
-    animation: li  0.7s forwards;
-opacity: 0;
-    
+    color: white; 
+
+}
+
+.menu li a {
+    -webkit-animation: top 0.4s ease forwards;
+    -o-animation: top 0.4s ease forwards;
+    animation: top 0.4s ease forwards;
+    opacity: 0;
 
 }
 
@@ -39,7 +50,7 @@ opacity: 0;
     margin-right: 40px;
     font-size: 15px;
     text-transform: uppercase;
-     
+
 }
 
 .tittle__container {
@@ -48,11 +59,8 @@ opacity: 0;
     float: left;
     color: #0F2673;
     text-align: center;
-       -webkit-animation: im 1s ;
-    -o-animation:im 1s ;
-    animation:im 1s ;
-    
-    
+
+
 
 }
 
@@ -65,14 +73,23 @@ opacity: 0;
 .tittle__container h1 {
     font-size: 40px;
     font-weight: 550;
-    
-   
-    
+    margin-left: -20px;
+    -webkit-animation: tittle_move 1s ease forwards;
+    -o-animation: tittle_move 1s ease forwards;
+    animation: tittle_move 1s ease forwards;
+
+
+
 }
 
 .tittle__container h3 {
     font-size: 17px;
     font-weight: 400;
+    -webkit-animation: tittle_move 1s ease forwards;
+    -o-animation: tittle_move 1s ease forwards;
+    animation: tittle_move 1s ease forwards;
+
+
 }
 
 .hhh {
@@ -96,15 +113,19 @@ opacity: 0;
 
     text-align: center;
     background-color: azure;
-
+    -webkit-animation: lorem 1s ease forwards;
+    -o-animation: lorem 1s ease forwards;
+    animation: lorem 1s ease forwards;
 }
 
 
 
 .lorem {
     margin-left: 275px;
+    margin-top: 17px;
     text-align: center;
     width: 1000px;
+
 }
 
 .rt {
@@ -118,13 +139,18 @@ opacity: 0;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-
     margin-left: 50px;
     margin-bottom: 1px;
     padding-top: 25px;
     margin-left: 10px;
+    transition: all 0.2s;
 
+    display: inline-block;
 
+}
+
+.rt:active {
+    color: darkgray;
 }
 
 .nomber > p {
@@ -156,9 +182,15 @@ opacity: 0;
 
 .nomber {
     width: 100%;
-    height: 400px;
-    background: url(../img/%D1%84%D0%BE%D0%BD.jpg)
+    height: 370px;
+    background-image: url(../img/%D1%84%D0%BE%D0%BD.jpg);
+
+
 }
+
+
+
+
 
 .div {
     float: left;
@@ -293,6 +325,7 @@ opacity: 0;
     height: 38px;
     width: 891px;
     background-color: #eeeeee;
+    
 
 }
 
@@ -486,6 +519,7 @@ opacity: 0;
 .killua {
     margin-left: -300px;
     height: 150px;
+    margin-top: 10px;
     width: 150px;
     border-radius: 50%;
     margin: 20px;
@@ -512,11 +546,6 @@ opacity: 0;
     margin-left: 13px;
     font-weight: 600;
 }
-
-
-
-
-
 
 .portfolio {
     padding-top: 110px;
@@ -638,28 +667,142 @@ opacity: 0;
         opacity: 1;
     }
 }
-@keyframes li{
-    from{opacity: 0;
-        
-    }
-    to{opacity: 1;
-    }
-}
 
-.menu li:nth-child(first){transition-delay: 0.5s}
-.menu li:nth-child(2){transition-delay: 1s}
-.menu li:nth-child(3){transition-delay: 1.5s}
-.menu li:nth-child(4){transition-delay: 2s}
-@keyframes im{
-    from{opacity: 0;
-   }
-    to{
+@keyframes top {
+    from {
+        opacity: 0;
+        margin-top: -80px;
+    }
+
+    to {
         opacity: 1;
-          
+        margin-top: 0px;
+    }
+}
+
+.menu li a:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.menu li a:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+.menu li a:nth-child(4) {
+    animation-delay: 1.2s;
+}
+
+@keyframes tittle_move {
+    from {
+        opacity: 0;
+        margin-left: -500px;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: -20px;
+    }
+}
+
+@keyframes lorem {
+    from {
+        opacity: 0;
+        margin-top: -70px;
+    }
+
+    to {
+        margin-top: 17px;
+        opacity: 1;
+    }
+}
+
+@keyframes killua {
+    from {
+        opacity: 0;
+        margin-top: -500px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 10px;
     }
 }
 
 
 
+.fs {
+    color: white;
 
+}
 
+.fs:hover {
+    background-color: skyblue;
+}
+.fs:active{
+    background-color: blue;
+}
+.mmm:focus{
+  box-shadow: 13px -13px 13px skyblue;
+    background-color: white;
+}
+.i:focus{  box-shadow: 5px 13px 13px skyblue;
+    background-color: white;}
+.ii:focus{  box-shadow: 5px 13px 13px skyblue;
+    background-color: white;}
+.iii:focus{  box-shadow: 5px 13px 13px skyblue;
+    background-color: white;}
+html.js .loader {
+  background: none repeat scroll 0 0 #fff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+html.js .loader .loader_inner {
+  animation: animate 1.5s linear infinite;
+  clip: rect(0, 80px, 80px, 40px);
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(220deg)
+  }
+}
+html.js .loader .loader_inner:after {
+  animation: animate2 1.5s ease-in-out infinite;
+  clip: rect(0, 80px, 80px, 40px);
+  content:'';
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+}
+@keyframes animate2 {
+  0% {
+    box-shadow: inset #b3dfd8 0 0 0 17px;
+    transform: rotate(-140deg);
+  }
+  50% {
+    box-shadow: inset #b3dfd8 0 0 0 2px;
+  }
+  100% {
+    box-shadow: inset #b3dfd8 0 0 0 17px;
+    transform: rotate(140deg);
+  }
+}
+.parallax__group {
+  position: relative;
+  height: 100%;
+  transform-style: preserve-3d;
+}
