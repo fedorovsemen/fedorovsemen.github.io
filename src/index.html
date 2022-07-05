@@ -1,51 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Семен Федоров-начинающий веб-разработчик</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="../src/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
-  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+    </style>
 </head>
 
 <body>
 
- <div class="loader">
-  <div class="loader_inner"></div>
-</div>
+
+
     <header>
         <nav>
-            <div class="logo">Fedorov Semen</div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="">обо мне</a>
-                        <a href="">услуги</a>
-                        <a href="">отзывы</a>
-                        <a href="">контакты</a>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-2 col-xl-3 col-lg-3 offset-xxl-2 col-7 ">
+                        <div class="logo">Fedorov Semen</div>
+                    </div>
+                    <div class="col-xxl-6  col-xl-8 col-lg-8 offset-xxl-2 offset-xl-1 offset-lg-1 d-none d-lg-block">
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a href="">обо мне</a>
+                                    <a href="">услуги</a>
+                                    <a href="">кейсы</a>
+                                    <a href="">прайс</a>
+                                    <a href="">отзывы</a>
+                                    <a href="">контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                        <div class="dropdown">
+                            <a class="btn btn-outline-info dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Навигация
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="">обо мне</a></li>
+                                <li><a class="dropdown-item" href="">услуги</a></li>
+                                <li><a class="dropdown-item" href="">кейсы</a></li>
+                                <li><a class="dropdown-item" href="">прайс</a></li>
+                                <li><a class="dropdown-item" href="">отзывы</a></li>
+                                <li><a class="dropdown-item" href="">контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
         </nav>
     </header>
     <main>
-    <div class="main">
-        <div class="tittle__container">
-
-            
-                <h1>
-                    Привет <br> я Фёдоров Семён
-                </h1>
-
-                <em>
-                    <h3 class="hhh">Я только учу web-разработку</h3>
-                </em>
-                <input type="button" value=" Обо мне">
-                <input type="button" value="Кейсы">
-        </div>
-
-    </div>
+      <section class="section_main">
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
+                  
+                        <div class="tittle__container">
+                            <h1>
+                                Привет <br> я Фёдоров Семён
+                            </h1>
+                            <em>
+                                <h3 class="hhh"><i class="fa fa-telegram custom" aria-hidden="true"></i>Я только учу web-разработку</h3>
+                            </em>
+                            <input type="button" value=" Обо мне">
+                            <input type="button" value="Кейсы">
+                        </div>
+                    </div>
+                </div>
+          </section>
+           <div class="main"></div>
+       
     </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 
     <div class="me">
@@ -59,10 +96,10 @@
 
 
 
-   <div class="nomber"> 
-   
+    <div class="nomber">
+
         <p class="im">ЧТО Я УМЕЮ</p>
-      
+
         <div class="div">
             <img src="https://anisami1.github.io/img/nout.png" alt="sorry">
 
@@ -89,13 +126,13 @@
         <div class="divvvv"> <img src="https://anisami1.github.io/img/gramofon.png" alt="">
             <h4>МАРКЕТИНГ</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, error.</p>
-     
-         </div>
-      
-         </div>
-          
-          
-    
+
+        </div>
+
+    </div>
+
+
+
 
     <div class="portfolio">
         <div class="portfolio_container">
@@ -137,19 +174,19 @@
     </div>
 
     <div class="statistics">
-<div class="parallax">
-  <div class="parallax__group">
-    <div class="parallax__layer parallax__layer--back">
-      
-    </div>
-    <div class="parallax__layer parallax__layer--base">
-     
-    </div>
-  </div>
-  <div class="parallax__group">
-   
-  </div>
-</div>
+        <div class="parallax">
+            <div class="parallax__group">
+                <div class="parallax__layer parallax__layer--back">
+
+                </div>
+                <div class="parallax__layer parallax__layer--base">
+
+                </div>
+            </div>
+            <div class="parallax__group">
+
+            </div>
+        </div>
         <br>
         <h2 class="w">НЕМНОГО СТАТИСТИКИ</h2>
         <div class="ww">
@@ -210,7 +247,8 @@
             <textarea class="iii" name="list1" id="list" cols="30" rows="10" placeholder="Сообщение"></textarea>
 
         </div>
-  </div>
+    </div>
+
 </body>
 
 </html>
