@@ -89,18 +89,71 @@ main{
     border-radius: 7px;
     
     font-weight: 600;
-    color: #0F2673;
+    color: #0F2673 ;
 }
 .white-btn{
     color: white;
+    
 }
 
 
-    
+  .rt {
+height: 70px;
+width: 100%;
+font-family: sans-serif;
+font-size: 30px;
+color: #0F2673;
+font-weight: 600;
+text-transform: uppercase;
+text-align: center;
+
+margin-bottom: 1px;
+padding-top: 45px;
+margin-left: 26px;
+transition: all 0.2s;
+display: inline-block;
+}
+
+.killua{
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 25px;
+    margin-left: 0 auto;
+}
+
+@media(max-width: 1399px){
+    .rt{margin-left: 16px;}
+    .killua{margin-left: -3px;}
+}
+@media(max-width: 1199px){
+   .rt{margin-left: 20px;}
+}
+@media(max-width: 991px){
+    .killua{margin-left: -32px;}
+}
+@media(min-width: 768px){
+    details{display: none;}
+}
+@media(max-width: 767px){
+    .lorem{display: none;}
+     .rt{margin-left: 5px;}
+    .killua{margin-left: -58px;}
+    details{text-align: center;}
+}
+@media(max-width: 526px){
+    .killua{margin-left: -60px;}
+}
+@media(max-width: 463px){
+    .killua{margin-left: -65px;}
+}
+
 
 
 
 /*
+
 .me {
 width: 100%;
 height: 450px;
@@ -113,7 +166,6 @@ animation: lorem 1s ease forwards;
 }
 
 
-
 .lorem {
 margin-left: 275px;
 margin-top: 17px;
@@ -122,27 +174,9 @@ width: 1000px;
 
 }
 
-.rt {
-height: 70px;
 
-width: 1050px;
-width: 100%;
-font-family: sans-serif;
-font-size: 30px;
-color: #0F2673;
-font-weight: 600;
-text-transform: uppercase;
-text-align: center;
-margin-left: 50px;
-margin-bottom: 1px;
-padding-top: 25px;
-margin-left: 10px;
-transition: all 0.2s;
-display: inline-block;
-
-
-}
-
+*/
+/*
 .rt:active {
 color: darkgray;
 }
@@ -514,13 +548,6 @@ font-weight: 500;
 padding: 25px;
 }
 
-.killua {
-margin-left: -300px;
-height: 150px;
-margin-top: 10px;
-width: 150px;
-border-radius: 50%;
-margin: 20px;
 
 
 }
@@ -776,6 +803,9 @@ main{height: 100%;}
         position: absolute;
        background:rgba(0,0,0,0.45);
         z-index: 1;
+    }
+    .title__container input{
+        color: black;
     }
 }
 
