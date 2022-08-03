@@ -1,7 +1,7 @@
 body {
 text-decoration: none;
     font-family: Arial;
-     
+    
     background-color: azure;
 }
 
@@ -95,7 +95,7 @@ main {
 
 }
 
-
+.me_container{text-align: center;}
 .rt {
     height: 70px;
     width: 100%;
@@ -108,74 +108,21 @@ main {
 
     margin-bottom: 1px;
     padding-top: 45px;
-    margin-left: 26px;
+  
     transition: all 0.2s;
     display: inline-block;
 }
 
 .killua {
     height: 200px;
-    text-align: center;
+   
     border: 1px solid black;
     border-radius: 50%;
     margin: 25px;
-    margin-left: 0 auto;
+   
 }
+.kil{text-align: center;}
 
-@media(max-width: 1399px) {
-    .rt {
-        margin-left: 16px;
-    }
-
-    .killua {
-        margin-left: -3px;
-    }
-}
-
-@media(max-width: 1199px) {
-    .rt {
-        margin-left: 20px;
-    }
-}
-
-    @media(min-width: 768px) {
-        details {
-            display: none;
-        }
-        
-    }
-
-    @media(max-width: 767px) {
-        .lorem {
-            display: none;
-        }
-        .reviwerss{margin-left: }
-        .rt {
-            margin-left: 5px;
-        }
-
-        .killua {
-            margin-left: -58px;
-        }
-
-        details {
-            text-align: center;
-        }
-    }
-
-    @media(max-width: 526px) {
-        .killua {
-            margin-left: -60px;
-        }
-    }
-
-    @media(max-width: 463px) {
-        .killua {
-            margin-left: -68px;
-        }
-    }
-
- 
 .skills{
     background: url(../img/%D1%84%D0%BE%D0%BD.jpg) center/cover no-repeat;
 }
@@ -205,6 +152,7 @@ main {
 .skills_item img{
     margin-bottom: 20px;
     height: 40px;
+    text-align: center;
 }
 
 .skills_item h3{
@@ -227,7 +175,7 @@ font-weight: 600;
 font-size: 28px;
 }
 .lorem {
-
+padding: 10px;
 text-align: center;
     padding-bottom: 40px;
     ;}
@@ -240,6 +188,7 @@ padding-bottom: 128px;
 .portfolio_container {
 width: 1170px;
 margin: 0 auto;
+    max-width: 100%;
 }
 
 
@@ -251,6 +200,7 @@ background: #d17700;
 width: 80px;
 margin: 0
 auto 40px;
+    opacity: 1;
 }
 
 .portfolio_subscription {
@@ -495,12 +445,12 @@ background-attachment: fixed;
   
 }
 .statistic_item img{
-    height: 54px;
+    height: 50px;
 }
 .statistic_item h3{
     font-size: 37px;
     font-weight: 800;
-    margin: 34px 0;
+         margin-top:10px ;  
 }
 
 .statistic_item p{
@@ -518,6 +468,7 @@ background-attachment: fixed;
     margin-top: 110px;
     margin: 0 auto;
     padding-bottom: 140px;
+    max-width: 100%;
 }
 
 .reviews_container h2{
@@ -527,28 +478,29 @@ background-attachment: fixed;
     margin: 0px auto 30px;
     padding-bottom: 5px;
     text-transform: uppercase;
-    padding-top: 100px;
+    padding-top: 100px;max-width: 100%;
 }
 
 
 
 .review{
     text-align: center;
+    max-width: 100%;
 }
 
 .review img{
-    margin-bottom: 36px;
+    margin-bottom: 36px;max-width: 100%;
 }
 
 .review_text{
     font-size: 17px;
     line-height: 24px;
-    margin-bottom: 36px;
+    margin-bottom: 36px;max-width: 100%;
 }
 
 .review_author{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 24px;max-width: 100%;
 }
 .my_nomber{
     background: url(../img/bg4.jpg);
@@ -1085,8 +1037,7 @@ margin-right: 7px;
         .title__container input {
             color: black;
         }
-         .killua {
-        margin-left: -32px;
+       
     }
           .reviewss{margin-left: -25px;}  
 }
