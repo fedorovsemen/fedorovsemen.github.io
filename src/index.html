@@ -21,7 +21,8 @@
 
     <header>
         <nav>
-            <div class="container">
+           
+            <div class="container ">
                 <div class="row">
                     <div class="col-xxl-2 col-xl-3 col-lg-3 offset-xxl-2 col-7 ">
                         <div class="logo">Fedorov Semen</div>
@@ -30,12 +31,12 @@
                         <div class="menu">
                             <ul>
                                 <li>
-                                    <a href="">обо мне</a>
-                                    <a href="">услуги</a>
-                                    <a href="">кейсы</a>
-                                    <a href="">прайс</a>
-                                    <a href="">отзывы</a>
-                                    <a href="">контакты</a>
+                                    <a href="#me">обо мне</a>
+                                    <a href="#services">услуги</a>
+                                    <a href="#case">кейсы</a>
+                                    <a href="#statistic">прайс</a>
+                                    <a href="#reviews">отзывы</a>
+                                    <a href="#contacts">контакты</a>
                                 </li>
                             </ul>
                         </div>
@@ -47,19 +48,18 @@
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="">обо мне</a></li>
-                                <li><a class="dropdown-item" href="">услуги</a></li>
-                                <li><a class="dropdown-item" href="">кейсы</a></li>
-                                <li><a class="dropdown-item" href="">прайс</a></li>
-                                <li><a class="dropdown-item" href="">отзывы</a></li>
-                                <li><a class="dropdown-item" href="">контакты</a></li>
+                                <li><a class="dropdown-item" href="#me">обо мне</a></li>
+                                <li><a class="dropdown-item" href="#services">услуги</a></li>
+                                <li><a class="dropdown-item" href="#case">кейсы</a></li>
+                                <li><a class="dropdown-item" href="#statistic">прайс</a></li>
+                                <li><a class="dropdown-item" href="#reviews">отзывы</a></li>
+                                <li><a class="dropdown-item" href="#contacts">контакты</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
-
+ 
         </nav>
     </header>
     <main>
@@ -69,11 +69,11 @@
 
                     <div class="title__container pt-5 mt-5">
                         <h1>
-                            Привет <br> я Фёдоров Семён
+                            Привет, <br> я Фёдоров Семён
                         </h1>
-                        <em>
-                            <h3 class="hhh"><i class="fa fa-telegram custom" aria-hidden="true"></i>Я только учу web-разработку</h3>
-                        </em>
+
+                        <p class="hhh"><i class="fa fa-telegram custom" aria-hidden="true"></i>Я только учу web-разработку</p>
+
                         <input type="button" value=" Обо мне">
                         <input type="button" value="Кейсы">
                     </div>
@@ -83,62 +83,69 @@
 
 
     </main>
-        <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/calc.js"></script>
 
 
-    <div class="me_container">
+
+
+    <div class="me_container element-animation">
+
         <div class="row justify-content-center">
             <div class="col-xxl-2 col-xl-3">
-                <p class="rt">обо мне</p>
+                <p class="rt" id="me">обо мне</p>
             </div>
         </div>
+
+
+
         <div class="row kil">
 
             <div class=""><img class="killua" src="../src/img/3e54c7cd6c9e4f60138d2de4530760c5.jpg" alt="">
             </div>
-        </div>
-        <p class="lorem">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, eum accusantium eligendi placeat temporibus laboriosam dignissimos consequatur asperiores corrupti repudiandae fugit quasi, fuga sequi odit doloribus iure natus ratione nulla deleniti ut ipsa, sapiente illo! Cupiditate corporis inventore illo minima dignissimos quaerat facilis odio ratione beatae! Hic consequuntur illum sit soluta aliquid libero itaque dolore, ad impedit quae odio, saepe iste, nisi cupiditate repellat obcaecati corporis incidunt temporibus porro eaque repellendus fugiat nemo.
-        </p>
-    </div>
 
-    <section class="skills">
-        <div class="skills_container container">
-            <h2>Что я умею</h2>
-            <hr>
-            <div class="row justify-content-center text-center">
-                <div class="skills_item col-12 col-sm-6 col-md-3">
-                    <img src="img/pc.png" alt="">
-                    <h3>Веб-дизайн</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
-                </div>
-                <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-sm-0">
-                    <img src="img/log.png" alt="">
-                    <h3>Разработка</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
-                </div>
-                <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
-                    <img src="img/log2.png" alt="">
-                    <h3>СЕО оптимизация</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
-                </div>
-                <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
-                    <img src="img/log3.png" alt="">
-                    <h3>Маркетинг</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+
+            <p class="lorem">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, eum accusantium eligendi placeat temporibus laboriosam dignissimos consequatur asperiores corrupti repudiandae fugit quasi, fuga sequi odit doloribus iure natus ratione nulla deleniti ut ipsa, sapiente illo! Cupiditate corporis inventore illo minima dignissimos quaerat facilis odio ratione beatae! Hic consequuntur illum sit soluta aliquid libero itaque dolore, ad impedit quae odio, saepe iste, nisi cupiditate repellat obcaecati corporis incidunt temporibus porro eaque repellendus fugiat nemo.
+            </p>
+        </div>
+     </div>
+       
+       
+        <section class="skills element-animation">
+            <div class="skills_container container">
+                <h2 id="services">Что я умею</h2>
+                <hr>
+                <div class="row justify-content-center text-center">
+                    <div class="skills_item col-12 col-sm-6 col-md-3">
+                        <img src="img/pc.png" alt="">
+                        <h3>Веб-дизайн</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+                    </div>
+                    <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-sm-0">
+                        <img src="img/log.png" alt="">
+                        <h3>Разработка</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+                    </div>
+                    <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
+                        <img src="img/log2.png" alt="">
+                        <h3>СЕО оптимизация</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+                    </div>
+                    <div class="skills_item col-12 col-sm-6 col-md-3 mt-5 mt-md-0">
+                        <img src="img/log3.png" alt="">
+                        <h3>Маркетинг</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-
-  <section class="portfolio">
+ 
+        <section class="portfolio element-animation">
             <div class="portfolio_container container">
-                <h2>Кейсы</h2>
+                <h2 id="case">Кейсы</h2>
                 <hr>
                 <p class="portfolio_subscription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ea cum error commodi at obcaecati consequuntur in pariatur!</p>
-                <img src="img/photo.png" alt="">
+                <img src="img/bannerCopy.jpg" data-src="img/photo.png" alt="">
                 <div class="row justify-content-between">
                     <div class="col-12 col-md-3 col-lg-2 description_left">
                         <h3>Client:</h3>
@@ -148,7 +155,7 @@
                         <a href="https://vk.com/sfedorov4">Visit Live Site</a>
                     </div>
                     <div class="col-12 col-md-9 description_right mt-3 mt-md-0">
-                        <h4>Название проекта</h4>
+                        <h4> Название проекта</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum blanditiis, debitis a ipsa fugit ad architecto adipisci obcaecati. Quos magnam, hic vero omnis numquam tempore laborum, similique tempora consequatur debitis a iure eaque. Vel cupiditate, maxime! Nemo adipisci quia velit.</p>
                     </div>
                 </div>
@@ -156,12 +163,13 @@
 
             </div>
         </section>
- 
 
-<section class="statistic">
+      
+
+        <section class="statistic element-animation">
             <div class="statistic_container container">
-                <h2>Немного статистики</h2>
-               
+                <h2 id="statistic">Немного статистики</h2>
+
                 <div class="row justify-content-center text-center">
 
                     <div class="col-12 col-sm-6 col-md-3  statistic_item ">
@@ -187,69 +195,77 @@
                 </div>
             </div>
         </section>
+       
 
-   <section class="reviews">
+        <section class="reviews element-animation">
             <div class="reviews_container container">
-                <h2>Отзывы</h2>
-               
+                <h2 id="reviews">Отзывы</h2>
+
                 <div class="row justify-content-center text-center">
-                <div class="review  ">
-                    <img src="img/mihail.png" alt="">
-                    <p class="review_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cum totam saepe laborum quae tenetur blanditiis laboriosam asperiores repellat quas!</p>
-                    <p class="review_author"> <span>Михаил</span>, Ген. Директор ПАО "Газпром"</p>
-                </div>
+                    <div class="review  ">
+                        <img src="img/mihail.png" alt="">
+                        <p class="review_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cum totam saepe laborum quae tenetur blanditiis laboriosam asperiores repellat quas!</p>
+                        <p class="review_author"> <span>Михаил</span>, Ген. Директор ПАО "Газпром"</p>
+                    </div>
                 </div>
             </div>
         </section>
 
 
-           
-    
-       
-
-    <div class="my_nomber">
-       <div class="container text-center"> 
-       <div><p class="contakt">МОИ КОНТАКТЫ</p></div>
-       <div class="row col-6 offset-3"><p class="ooo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, odit. Quod excepturi aspernatur rerum quasi alias veritatis omnis doloremque recusandae esse voluptates? Ipsam nesciunt, ullam natus quam aliquid blanditiis nam.</p></div> 
-        <div class="img row justify-content-center text-center">
-        <div class="r col-12 col-md-4 col-lg-3">
-            <img src="https://anisami1.github.io/img/гео.png" alt="">
-            <p>MAYAMI-BITCH</p>
-        </div>
-        <div class="rr col-12 col-md-4 col-lg-3">
-            <img src="https://anisami1.github.io/img/конверт.png" alt="">
-            <p>imdeadinside@ya.ru</p>
-        </div>
-        <div class="rrr col-12 col-md-4 col-lg-3">
-            <img src="https://anisami1.github.io/img/труба.png" alt="">
-            <p>+7-777-777-77-77</p>
-        </div>
-</div>
-        <p class="q">ОСТАВТЕ МНЕ СООБЩЕНИЕ</p>
-        <div class="h">
 
 
-           <form action="#">
-                   <div class="yes">
-                    <div class="contacts_inputs row justify-content-center text-center">
-                        <div class="name col-12 col-sm-4 "><input type="text" placeholder="Имя"></div>
-                        <div class="email col-12 col-sm-4 "><input class="secondInput " type="text" placeholder="Email"></div>
-</div>
 
+        <div class="my_nomber element-animation">
+            <div class="container text-center">
+                <div>
+                    <p class="contakt" id="contacts">МОИ КОНТАКТЫ</p>
+                </div>
+                <div class="row col-6 offset-3">
+                    <p class="ooo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, odit. Quod excepturi aspernatur rerum quasi alias veritatis omnis doloremque recusandae esse voluptates? Ipsam nesciunt, ullam natus quam aliquid blanditiis nam.</p>
+                </div>
+                <div class="img row justify-content-center text-center">
+                    <div class="r col-12 col-md-4 col-lg-3">
+                        <img src="https://anisami1.github.io/img/гео.png" alt="">
+                        <p>MAYAMI-BITCH</p>
                     </div>
-                    <div class="row justify-content-center text-center">
-                        <div class="col-12 col-sm-8">
-                            <textarea placeholder="Сообщение" name="message" id="messageText" cols="30" rows="5"></textarea>
+                    <div class="rr col-12 col-md-4 col-lg-3">
+                        <img src="https://anisami1.github.io/img/конверт.png" alt="">
+                        <p>imdeadinside@ya.ru</p>
+                    </div>
+                    <div class="rrr col-12 col-md-4 col-lg-3">
+                        <img src="https://anisami1.github.io/img/труба.png" alt="">
+                        <p>+7-777-777-77-77</p>
+                    </div>
+                </div>
+                <p class="q">ОСТАВТЕ МНЕ СООБЩЕНИЕ</p>
+                <div class="h">
+
+
+                    <form action="#">
+                        <div class="yes">
+                            <div class="contacts_inputs row justify-content-center text-center">
+                                <div class="name col-12 col-sm-4 "><input type="text" placeholder="Имя"></div>
+                                <div class="email col-12 col-sm-4 "><input class="secondInput " type="text" placeholder="Email"></div>
+                            </div>
+
                         </div>
-                    </div>
+                        <div class="row justify-content-center text-center">
+                            <div class="col-12 col-sm-8">
+                                <textarea placeholder="Сообщение" name="message" id="messageText" cols="30" rows="5"></textarea>
+                            </div>
+                        </div>
 
-                    <input class="no" type="submit" value="Отправить">
-                </form>
-</div>
-       
+                        <input class="no" type="submit" value="Отправить">
+                    </form>
+                </div>
+
+            </div>
         </div>
-    </div>
 
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.0.min%20(1).js"></script>
+        <script src="js/myScript.js"></script>
+        <script src="js/calc.js"></script>
 </body>
 
 

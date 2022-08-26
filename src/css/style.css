@@ -175,7 +175,7 @@ font-weight: 600;
 font-size: 28px;
 }
 .lorem {
-
+margin-right: 30px;
 text-align: center;
     padding-bottom: 40px;
     ;}
@@ -1041,3 +1041,44 @@ margin-right: 7px;
     }
           .reviewss{margin-left: -25px;}  
 }
+
+.element-animation{
+    opacity: 0;
+}
+
+
+.element-animation.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

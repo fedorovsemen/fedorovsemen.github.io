@@ -1,3 +1,4 @@
+
 //let sum = 0, days = 0;
 //function calc(){
 // let type = prompt("Какой тип сайта? 1 - Сайт-визитка 2 - Интернет-магазин");
@@ -46,7 +47,7 @@
 //    calc();
 
 
-let site, design, adaptive;
+/*let site, design, adaptive;
 
 let calculator = {
     price: [
@@ -91,7 +92,7 @@ adaptive = prompt("Адаптивность: \n1 - Только ПК, \n2 - То
 
 getAnswers();
     
-    
+   */
 
 
 
