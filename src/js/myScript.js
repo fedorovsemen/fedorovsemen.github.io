@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 	let options = {
-		threshold: [0.5]
+		threshold: [0.2]
 	};
 	let observer = new IntersectionObserver(onEntry, options);
 	let elements = $('.element-animation');
@@ -17,7 +17,58 @@ $(document).ready(function () {
 		});
 	}
 
+	
+	
+
+	$(".middle").css("display", "none");
+	
+	function calculate(){
+		let sum = parseInt($("#selectSite option:selected").val()) + parseInt($("#selectDesign option:selected").val()) + parseInt($("#selectAdaptive option:selected").val());
+		let days = parseInt($("#selectSite option:selected").attr("days")) + parseInt($("#selectDesign option:selected").attr("days")) + parseInt($("#selectAdaptive option:selected").attr("days"));
+		$(".days .digit").text(days);
+		$(".price .digit").text(sum);	
+	}
+	$("select").on("change", function(){
+		calculate();
+	});
+	
+	
+setTimeout(function(){ 
+    modalwin = document.getElementById('modal-content');
+    modalwin.style.display="block"; 
+    document.getElementById("modal-close").addEventListener("click", function(){
+        modalwin.style.display="none";            
+    });
+}, 15000);
+	
 	/*
+	const time = 4000; 
+	const step = 5;
+	
+	function goodclientO(num, elem){
+		let 1 = document.querySelector('#' + elem);
+		n = 0;
+		let t = Math.round(time / (num / step));
+		let interval = setInterval(() => {
+			n = n + step;
+			if (n == num){
+			clearInterval(interval);
+			}
+			l.innerHTML = n;
+		},
+		t);
+		}
+goodclientO(1000, "goodclient");
+	
+	
+	
+	
+	
+	
+	
+	/*
+	
+	 это загрузка видео после того как до неё долистали тоже не получилась
 	let options = {
 		threshold: [0.5]
 	};
@@ -38,7 +89,9 @@ $(document).ready(function () {
 */
 
 
-
+$(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});
 
 
 
@@ -46,14 +99,14 @@ $(document).ready(function () {
 
 	$(window).scroll(() =>{
             let scrollDistance = $(window).scrollTop();
-        $(".container, .skills, .portfolio, .statistic, .reviews, .my_nomber").each((i, el) => {
+        $(".section").each((i, el) => {
                 if ($(el).offset().top - $("nav").outerHeight() <= scrollDistance) {
                     $("nav a").each((i, el) => {
                         if ($(el).hasClass("active")) {
                             $(el).removeClass("active");
                         }
                     });
-                    $('nav li:eq('+ i +')').find('a').addClass('active');
+                    $('nav li:eq('+ i +')').find('a').addClass('active'); 
                 }
         });
 });
