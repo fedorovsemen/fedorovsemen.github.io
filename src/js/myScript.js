@@ -32,43 +32,50 @@ $(document).ready(function () {
 		calculate();
 	});
 	
-	
+	/*
 setTimeout(function(){ 
     modalwin = document.getElementById('modal-content');
     modalwin.style.display="block"; 
     document.getElementById("modal-close").addEventListener("click", function(){
         modalwin.style.display="none";            
     });
-}, 15000);
+}, 15000);*/
+
+
+$(document).ready(function(){
+    $('.benefits__number').spincrement({
+        thousandSeparator: "",
+        duration: 1500
+    });
+});
+	$(document).ready(function () {
+ 
+    var show = true;
+    var countbox = ".benefits__inner";
+    $(window).on("scroll load resize", function () {
+        if (!show) return false; // Отменяем показ анимации, если она уже была выполнена
+        var w_top = $(window).scrollTop(); // Количество пикселей на которое была прокручена страница
+        var e_top = $(countbox).offset().top; // Расстояние от блока со счетчиками до верха всего документа
+        var w_height = $(window).height(); // Высота окна браузера
+        var d_height = $(document).height(); // Высота всего документа
+        var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
+        if (w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
+            $('.benefits__number').css('opacity', '1');
+            $('.benefits__number').spincrement({
+                thousandSeparator: "",
+                duration: 1500
+            });
+             
+            show = false;
+        }
+    });
+ 
+});
+		
+
 	
-	/* "бегающие цифры" в блоке "Статистика"*/
-	const time = 4000; 
-	const step = 5;
 	
-	function goodclientO(num, elem){
-		let 1 = document.querySelector('#' + elem);
-		n = 0;
-		let t = Math.round(time / (num / step));
-		let interval = setInterval(() => {
-			n = n + step;
-			if (n == num){
-			clearInterval(interval);
-			}
-			l.innerHTML = n;
-		},
-		t);
-		}
-goodclientO(1000, "goodclient");
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	 /*это загрузка видео после того как до неё долистали тоже не получилась*/
+	 /*это загрузка картинок после того как до неё долистали тоже не получилась*//*
 	let options = {
 		threshold: [0.5]
 	};
@@ -81,13 +88,13 @@ goodclientO(1000, "goodclient");
 	function onEntry(entry) {
 		entry.forEach(change => {
 			if (change.isIntersecting) {
-				change.target.classList.add('');
+			
 				change.target.src = change.target.dataset.src;
 			}
 		});
 	}
 
-
+*/
 
 $(document).ready(function() {
   $('.image-link').magnificPopup({type:'image'});
@@ -120,7 +127,7 @@ $(document).ready(function() {
 
 
 
-/* Тут я использовал для каждой сылки , а не обьеденил всех как вы показывали в видеоуроке, тк мне не нравлось как выглядит блок с услугами на 130px, а как подругому отделить этот блок я не мог придумать */
+/* Тут я использовал для каждой сcылки , а не обьеденил всех как вы показывали в видеоуроке, тк мне не нравлось как выглядит блок с услугами на 130px, а как подругому отделить этот блок я не мог придумать */
 $('a[href^="#me"]').click(function () {
 	let valHref = $(this).attr("href");
 	$('html, body').animate({

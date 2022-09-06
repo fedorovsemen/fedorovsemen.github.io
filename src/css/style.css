@@ -126,11 +126,12 @@ main {
 .kil{text-align: center;}
 
 .skills{
-    background: url(../img/%D1%84%D0%BE%D0%BD.jpg) center/cover no-repeat;
+    border: 1px solid #0F2673;
+	margin: 20px;
 }
 
 .skills_container{
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 96px;
 }
 
@@ -172,7 +173,7 @@ main {
 text-align: center;
 padding: 30px;
 font-family: sans-serif;
-color: #db7e56;
+color: #0F2673;
 font-weight: 600;
 font-size: 28px;
 }
@@ -183,7 +184,7 @@ text-align: center;
     ;}
 
 .portfolio {
-padding-top: 110px;
+padding-top: 60px;
 padding-bottom: 128px;
 }
 
@@ -529,12 +530,12 @@ padding-bottom: 40px;}
 .no{margin-top: 15px;
 margin-bottom: 20px;}
 .portfolio{
-    padding-top: 110px;
+    padding-top: 60px;
     padding-bottom: 128px;
 }
 
 .portfolio{
-    padding-top: 110px;
+    padding-top: 60px;
     padding-bottom: 128px;
 }
 
@@ -1220,11 +1221,62 @@ margin-right: 7px;
     width: 100%;
     left: 0;
 }
+.clear{
+    clear:both;
+}
 
+.benefits {
+    width: 100%;
+    background:url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg) no-repeat ;
+}
+ 
+.benefits__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+ 
+.benefits__header {
+    width: 100%;
+    text-align: center;
+    line-height: 1.3;
+    padding: 0 15px 40px;
+    color: #000;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+ 
 
+.benefits__icon {
+    display: block;
+    width: 60px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+ 
+.benefits__element p {
+    color: #000;
+    text-align: center;
+    line-height: 1.3;
+}
+ 
+.benefits__number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+ 
+.benefits__title {
+    font-size: 1.125rem;
+}
 
-
-
+	
+.benefits__number {opacity: 0;}
 
 
 
