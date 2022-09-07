@@ -75,26 +75,7 @@ $(document).ready(function(){
 
 	
 	
-	 /*это загрузка картинок после того как до неё долистали тоже не получилась*//*
-	let options = {
-		threshold: [0.5]
-	};
-	let observer = new IntersectionObserver(onEntry, options);
-	let elements = $('');
-	elements.each((i, el) => {
-		observer.observe(el);
-	});
-
-	function onEntry(entry) {
-		entry.forEach(change => {
-			if (change.isIntersecting) {
-			
-				change.target.src = change.target.dataset.src;
-			}
-		});
-	}
-
-*/
+	
 
 $(document).ready(function() {
   $('.image-link').magnificPopup({type:'image'});
@@ -104,24 +85,16 @@ $(document).ready(function() {
 
 
 
-	$(window).scroll(() =>{
-            let scrollDistance = $(window).scrollTop();
-        $(".section").each((i, el) => {
-                if ($(el).offset().top - $("nav").outerHeight() <= scrollDistance) {
-                    $("nav a").each((i, el) => {
-                        if ($(el).hasClass("active")) {
-                            $(el).removeClass("active");
-                        }
-                    });
-                    $('nav li:eq('+ i +')').find('a').addClass('active'); 
-                }
-        });
-});
-});
+	
 
+$("#inputTel").mask("+7(999) 999-9999");
 
-
-
+	$('form').submit(function(event){
+		if ($("#inputTel").val() == "" || $("#inputName").val() == ""){
+			event.preventDefault();
+			alert("Ведитe поле");
+		}
+	})
 
 
 
@@ -170,4 +143,5 @@ $('a[href^="#services"]').click(function () {
 	$('html, body').animate({
 		scrollTop: $(valHref).offset().top - 230 + "px"
 	});
+});
 });

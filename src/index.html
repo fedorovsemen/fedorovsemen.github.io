@@ -71,7 +71,7 @@
 
 								</li>
 							</ul>
-						
+						</div>
 					</div>
 					<div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
 						<div class="dropdown">
@@ -89,7 +89,7 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				
 			</div>
 			</div>
 		</nav>
@@ -121,7 +121,7 @@
 
 
 
-	<div class="me_container element-animation section active">
+	<div class="me_container element-animation section ">
 
 		<div class="row justify-content-center">
 			<div class="col-xxl-2 col-xl-3">
@@ -144,7 +144,7 @@
 	</div>
 
 
-	<section class="skills element-animation section active">
+	<section class="skills element-animation section ">
 		<div class="skills_container container">
 			<h2 id="services">Что я умею</h2>
 			<hr>
@@ -174,7 +174,7 @@
 	</section>
 
 
-	<section class="portfolio element-animation section active">
+	<section class="portfolio element-animation section ">
 		<div class="portfolio_container container">
 			<h2 id="case">Кейсы</h2>
 			
@@ -267,7 +267,7 @@
         
         
 
-        <section id="price" class="calculator section element-animation active">
+        <section id="price" class="calculator section element-animation ">
             <div class="calculator_container container section">
                 <h2>Расчет стоимости</h2>
                 <div class="calculator_inner section">
@@ -318,7 +318,7 @@
 
 
 
-<div class="benefits active" id="statictick">
+<div class="benefits " id="statictick">
     <div class="benefits__inner row justify-content-center text-center stata counter mid">
         <p class="benefits__header">Немного статистики</p> 
            
@@ -451,17 +451,17 @@
 			<div class="h">
 
 
-				<form action="#">
+				<form action="php/test.php" method="post">
 					<div class="yes">
 						<div class="contacts_inputs row justify-content-center text-center">
-							<div class="name col-12 col-sm-4 "><input type="text" placeholder="Имя"></div>
-							<div class="email col-12 col-sm-4 "><input class="secondInput " type="text" placeholder="Email"></div>
+							<div class="name col-12 col-sm-4 "><input type="text" placeholder="Имя" required id="inputName" name="user_text"></div>
+							<div class="phone col-12 col-sm-4 "><input class="secondInput " required id="inputTel" type="phone" placeholder="Ваш номер телефона" name="user_phone"></div>
 						</div>
 
 					</div>
 					<div class="row justify-content-center text-center">
 						<div class="col-12 col-sm-8">
-							<textarea placeholder="Сообщение" name="message" id="messageText" cols="30" rows="5"></textarea>
+							<textarea placeholder="Сообщение" name="message" id="messageText" cols="30" rows="5" required></textarea>
 						</div>
 					</div>
 
@@ -477,6 +477,7 @@
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/jquery.spincrement.min.js"></script>
+	<script src="js/maskedInput.min.js"></script>
 	<script src="js/myScript.js"></script>
 	<script src="js/calc.js"></script>
 </body>

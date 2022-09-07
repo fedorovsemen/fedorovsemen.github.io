@@ -12,6 +12,8 @@ nav {
     background: #0F2673;
     position: fixed;
     z-index: 3;
+	top: 0;
+	left: 0;
 
 }
 
@@ -181,6 +183,7 @@ font-size: 28px;
 margin-right: 30px;
 text-align: center;
     padding-bottom: 40px;
+	
     ;}
 
 .portfolio {
