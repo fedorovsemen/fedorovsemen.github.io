@@ -5,7 +5,7 @@
 height:700px;
 left: 0px;
 top: 0px;
-background-image: url(../img/me.png);
+background-image: url(../img/99mmm.png);
 background-repeat: no-repeat;
 background-position: center;
 background-color: #1D2C43;
@@ -122,8 +122,8 @@ margin-left: -32px;
 		background: rgba(0,0,0,0.4)
 	}}
 @media(max-width: 477px){
-	.fed, .sem{ font-size: 78 px;}
-	margin-left: 35px;
+	.fed, .sem{ font-size: 70px;
+	;}
 }
 
 @media(max-width: 1199px){
@@ -160,35 +160,95 @@ font-weight: 300;
 font-size: 20px;
 line-height: 24px;	
 color: #CED6E3;
-	padding-top: 43px;
+padding-top: 43px;
 }
 
 @media(max-width: 576px){
 	.aboutMe{
-		font-size: 70px;
-		text-align: center;
-	}	
+	font-size: 70px;
+	text-align: center;
+	}
+	
 }
 
 
+.services{
+	height: 850px;
+	background-color: #1E1E1E;
+	background: url(../img/Vector%201.png) 14% 40%/auto 50% no-repeat, url(../img/Vector%202%20.png) 37% 80%/auto 50% no-repeat, url(../img/Vector%203.png) 64% 70%/auto 50% no-repeat, url(../img/Vector%204.png) 89% 55%/auto 50% no-repeat ; 
+	
+	background-color: #1E1E1E;
+}
 
+.services_p{
+font-family: 'Defectica';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 106px;
+color: #CED6E3;
+padding-top: 85px;
+}
 
+.services section{
+ color: #CED6E3;
+}
+/*
+.Vector1{
+	margin-top: -66px;
+}
+*/
+.mini_img1{
+margin-top: 70px;
+	padding-right: 10px;
+}
 
+.services1{
+padding-top: 20px;
+padding-right: 16px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: black;
+}
 
+.Vectorbig1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+	margin-right: 15px;
+}
+/*
+.Vector2{
+	margin-top: -108px;
+	margin-left: 31.333%;
+}
 
+.mini_img2{
+margin-left:-157px;
+margin-top: -233px;}
 
+.services2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: black;
+margin-top: -229px;
+margin-left: 36.333%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.Vectorbig1{
+margin-left: 496px;	
+}
+*/
 
 
 
