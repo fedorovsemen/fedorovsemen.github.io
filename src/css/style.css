@@ -1,5 +1,6 @@
  body{
 	font-family: 'Defectica';
+	 background-color:#1E1E1E; 
 }
 .main{
 height:700px;
@@ -9,6 +10,7 @@ background-image: url(../img/99mmm.png);
 background-repeat: no-repeat;
 background-position: center;
 background-color: #1D2C43;
+height: calc(100% - 0px);
 	
 }
 
@@ -39,10 +41,14 @@ text-decoration: none;
 }
 
 nav{
-
 height: 70px;
 background: #1D2C43;
-z-index: 1;
+z-index: 10;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+
 	
 }
 .fed{
@@ -51,7 +57,7 @@ font-size: 96px;
 line-height: 106px;
 color: #CED6E3;
 text-transform: uppercase;
-padding-top: 197px;
+padding-top: 250px;
 
 }
 .sem{
@@ -130,7 +136,17 @@ margin-left: -32px;
 	.second_Input li a{
 		margin-left: 2px;
 	}	
+	.landing, .case{
+		padding-top: 70px;
+	}
+	
+	.services{
+		background: none;
+		background: url(../img/Group%20333.png) 5% 40%/auto 10% no-repeat, url(../img/Group%2044.png) 35% 55%/auto 25% no-repeat, url(../img/Group%2055.png) 65% 40%/auto 25% no-repeat, url(../img/Group%2066.png) 95% 55%/auto 25% no-repeat ; 
+		
+	}
 }
+
 
 .aboutMe{
 font-style: normal;
@@ -175,7 +191,7 @@ padding-top: 43px;
 .services{
 	height: 850px;
 	background-color: #1E1E1E;
-	background: url(../img/Vector%201.png) 14% 40%/auto 50% no-repeat, url(../img/Vector%202%20.png) 37% 80%/auto 50% no-repeat, url(../img/Vector%203.png) 64% 70%/auto 50% no-repeat, url(../img/Vector%204.png) 89% 55%/auto 50% no-repeat ; 
+	background: url(../img/Group%203.png) 12% 40%/auto 50% no-repeat, url(../img/Group%204.png) 37% 80%/auto 50% no-repeat, url(../img/Group%205.png) 64% 70%/auto 50% no-repeat, url(../img/Group%206.png) 89% 55%/auto 50% no-repeat ; 
 	
 	background-color: #1E1E1E;
 }
@@ -249,6 +265,127 @@ margin-left: 36.333%;
 margin-left: 496px;	
 }
 */
+
+.case_i{
+font-family: 'Defectica';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 106px;
+color: #CED6E3;
+
+}
+.case_img{
+	margin-top: 81px;
+	max-width: 100%;
+}
+
+.landing{
+font-family: 'Defectica';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+color: #CED6E3;
+margin-top: -269px;
+}
+
+.case_a{
+	border: 1px solid #CED6E3;
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration: none;
+	color: #CED6E3;
+}
+
+
+@media(max-width:1399px){
+	.services{
+		background: none;
+		background: url(../img/Group%20333.png) 5% 40%/auto 25% no-repeat, url(../img/Group%2044.png) 35% 55%/auto 25% no-repeat, url(../img/Group%2055.png) 65% 40%/auto 25% no-repeat, url(../img/Group%2066.png) 95% 55%/auto 25% no-repeat  ; 
+	}
+	.case{
+		margin-top: -130px;
+	}
+}
+
+
+@media(max-width:767px){
+	.landing{
+		margin-top: -40px;
+	}
+}
+
+.contacts{
+	height: 1000px;
+}
+
+.contactss{
+color:#CED6E3;
+font-family: 'Defectica';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 106px;
+text-transform: uppercase;
+	padding-top: 250px;
+}
+
+.zxc{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+color: #CED6E3;
+margin-left: 55%;
+}
+
+.contacts input{
+background: none;
+	border-bottom: 1px solid #CED6E3;
+	color: #CED6E3;
+	width: 450px;
+}
+.name{
+	padding-top: 140px;
+
+}
+
+.phone{
+	padding-top:50px
+}
+.text_input{
+	padding-top:50px
+}
+
+.text_inputTwo{
+	padding-top: 70px;
+}
+
+.no{
+	border: 1px solid #CED6E3;
+	width: 120px !important;
+	padding: 4px;
+	margin-top: 40px;
+}
+
+.main_icon{
+	color:#CED6E3; 
+	margin-top: -256px;
+}
+
+.main_icon{
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
 
 
 
