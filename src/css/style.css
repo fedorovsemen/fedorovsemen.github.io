@@ -8,7 +8,7 @@ left: 0px;
 top: 0px;
 background-image: url(../img/99mmm.png);
 background-repeat: no-repeat;
-background-position: center;
+background-position: 50% 30%;
 background-color: #1D2C43;
 height: calc(100% - 0px);
 	
@@ -132,20 +132,7 @@ margin-left: -32px;
 	;}
 }
 
-@media(max-width: 1199px){
-	.second_Input li a{
-		margin-left: 2px;
-	}	
-	.landing, .case{
-		padding-top: 70px;
-	}
-	
-	.services{
-		background: none;
-		background: url(../img/Group%20333.png) 5% 40%/auto 10% no-repeat, url(../img/Group%2044.png) 35% 55%/auto 25% no-repeat, url(../img/Group%2055.png) 65% 40%/auto 25% no-repeat, url(../img/Group%2066.png) 95% 55%/auto 25% no-repeat ; 
-		
-	}
-}
+
 
 
 .aboutMe{
@@ -184,15 +171,16 @@ padding-top: 43px;
 	font-size: 70px;
 	text-align: center;
 	}
-	
+	.case_i{
+		font-size: center;
+	}
 }
 
 
 .services{
 	height: 850px;
 	background-color: #1E1E1E;
-	background: url(../img/Group%203.png) 12% 40%/auto 50% no-repeat, url(../img/Group%204.png) 37% 80%/auto 50% no-repeat, url(../img/Group%205.png) 64% 70%/auto 50% no-repeat, url(../img/Group%206.png) 89% 55%/auto 50% no-repeat ; 
-	
+	background: url(../img/Group%203.png) 12% 40%/auto 50% no-repeat, url(../img/Group%204.png) 37% 80%/auto 50% no-repeat, url(../img/Group%205.png) 64% 70%/auto 50% no-repeat, url(../img/Group%206.png) 89% 55%/auto 50% no-repeat ;
 	background-color: #1E1E1E;
 }
 
@@ -299,15 +287,7 @@ margin-top: -269px;
 }
 
 
-@media(max-width:1399px){
-	.services{
-		background: none;
-		background: url(../img/Group%20333.png) 5% 40%/auto 25% no-repeat, url(../img/Group%2044.png) 35% 55%/auto 25% no-repeat, url(../img/Group%2055.png) 65% 40%/auto 25% no-repeat, url(../img/Group%2066.png) 95% 55%/auto 25% no-repeat  ; 
-	}
-	.case{
-		margin-top: -130px;
-	}
-}
+
 
 
 @media(max-width:767px){
@@ -318,6 +298,8 @@ margin-top: -269px;
 
 .contacts{
 	height: 1000px;
+	background: url(../img/Line%202.png) 74% 48% no-repeat, url(../img/Line%202.png) 74% 95% no-repeat,  url(../img/Line%204.png) 45% 140% no-repeat,  url(../img/Line%204.png) 83% 160% no-repeat;
+	
 }
 
 .contactss{
@@ -328,7 +310,8 @@ font-weight: 400;
 font-size: 96px;
 line-height: 106px;
 text-transform: uppercase;
-	padding-top: 250px;
+padding-top: 250px;
+
 }
 
 .zxc{
@@ -379,18 +362,160 @@ background: none;
 	padding-top: 40px;
 }
 
+@media(max-width: 1199px){
+	
+	.second_Input li a{
+		margin-left: 2px;
+	}	
+	.landing, .case{
+		padding-top: 70px;
+		
+	}
+	.contactss{
+		text-align: center;
+	}
+	
+	.zxc{
+		margin-left: 0%;
+		text-align: center;
+	}
+	.case{
+		margin-top: -300px;
+	}
+}
 
 
+	
+	
+	@media(max-width:1399px){
+		.servies{
+		background: none;
+		background: url(../img/Group%20333.png) 5% 40%/auto 25% no-repeat, url(../img/Group%2044.png) 35% 55%/auto 25% no-repeat, url(../img/Group%2055.png) 65% 40%/auto 25% no-repeat, url(../img/Group%2066.png) 95% 55%/auto 25% no-repeat; 
+	}
+	}
+	
+		
+	
+
+@media(max-width: 1098px){
+.services{
+		background: none;
+		background: url(../img/Group%20333.png) 30% 37%/auto 23% no-repeat, url(../img/Group%2044.png) 30% 75%/auto 23% no-repeat, url(../img/Group%2055.png) 64% 37%/auto 23% no-repeat, url(../img/Group%2066.png) 64% 75%/auto 23% no-repeat ; 
+		
+	}
+	.services_p{
+		font-size: 90px;
+		text-align: center;
+	}
+	.case{
+margin-top: 0px;}
+}
+
+@media(max-width:868px){
+	.services{
+		height: 2000px;
+		background: none;
+		background: url(../img/Group%20333.png) 50% 15%/auto 17% no-repeat, url(../img/Group%2044.png) 50% 40%/auto 17% no-repeat, url(../img/Group%2055.png) 50% 65%/auto 17% no-repeat, url(../img/Group%2066.png) 50% 90%/auto 17% no-repeat ; 
+		
+	}
+		.services_p{
+		font-size: 90px;
+		text-align: center;
+	}
+}
+
+.main_icon{
+margin-top: -400px;	
+}
+
+.main_icon h6{
+	font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #0C5DA5;
+padding-top: 20px;
+	
+}
 
 
+footer{
+	height: 300px;
+background: red;
+}
+
+@media(max-width:1399px){
+
+	.zxc{
+		margin-left: 31%;
+	}
+	.case{
+		margin-top: -130px;
+	}
+	.amd{
+		margin-left: 140px;
+	}
+	.no{
+		margin-left: 659px;
+		display: none;
+	}
+	.amd{
+	display: none;
+	height: 1500px;
+	}
+	.contacts{
+	background: none;
+	height: 700px;	
+	background-color: #0f0f0f;
+	margin-top: 250px;
+
+	}
+	.contactss{
+font-size: 70px;
+		padding-top: 45px;
+	}
+	.main_icon{
+		display: none;
+	}
+
+}
+
+@media(min-width:1399px){
+	.main_icon_two{display: none;}
+}
+
+.main_icon_two h6{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #0C5DA5;
+}
 
 
+.main_icon_two a{
+text-decoration: none;
+	color: #CED6E3;
 
+}
+.main_icon_two{
+	color: #CED6E3;
+	padding-top: 65px;
+	margin-left: 7%;
+}
 
+.phone_email{
+	margin-top: -129px;
+}
 
+.insta{
+	margin-top: -143px;
+	margin-left: -50px;
+}
 
-
-
-
-
+.tg{
+	margin-left: 60px;
+}
 
