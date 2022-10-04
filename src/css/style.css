@@ -1,6 +1,9 @@
  body{
-	font-family: 'Defectica';
+	font-family: 'Montserrat';
 	 background-color:#1E1E1E; 
+}
+a{
+	text-decoration: none;
 }
 .main{
 height:700px;
@@ -19,7 +22,7 @@ position: absolute;
 font-size: 36px;
 height: 40px;
 top: 15px;
-font-family: 'Defectica';
+
 font-style: normal;
 font-weight: 400;
 font-size: 36px;
@@ -53,7 +56,7 @@ width: 100%;
 }
 .fed{
 font-weight: 400;
-font-size: 96px;
+font-size: 93px;
 line-height: 106px;
 color: #CED6E3;
 text-transform: uppercase;
@@ -62,7 +65,7 @@ padding-top: 250px;
 }
 .sem{
 font-weight: 400;
-font-size: 96px;
+font-size: 93px;
 line-height: 106px;
 color: #CED6E3;
 text-transform: uppercase;	
@@ -125,8 +128,12 @@ margin-left: -32px;
 		left: 0;
 		right: 0;
 		position: absolute;
-		background: rgba(0,0,0,0.4)
-	}}
+		background: rgba(0,0,0,0.4);		
+	}
+	.sem, .fed{
+		font-size: 77px;
+	}
+}
 @media(max-width: 477px){
 	.fed, .sem{ font-size: 70px;
 	;}
@@ -185,7 +192,7 @@ padding-top: 43px;
 }
 
 .services_p{
-font-family: 'Defectica';
+
 font-style: normal;
 font-weight: 400;
 font-size: 96px;
@@ -255,7 +262,7 @@ margin-left: 496px;
 */
 
 .case_i{
-font-family: 'Defectica';
+
 font-style: normal;
 font-weight: 400;
 font-size: 96px;
@@ -269,7 +276,7 @@ color: #CED6E3;
 }
 
 .landing{
-font-family: 'Defectica';
+
 font-style: normal;
 font-weight: 400;
 font-size: 40px;
@@ -290,21 +297,22 @@ margin-top: -269px;
 
 
 
+.contacts{
+	height: 1000px;
+	background: url(../img/Line%202.png) 80% 48% no-repeat, url(../img/Line%202.png) 80% 95% no-repeat,  url(../img/Line%204.png) 45% 150% no-repeat,  url(../img/Line%204.png) 87% 160% no-repeat;
+	
+}
+
+
 @media(max-width:767px){
 	.landing{
 		margin-top: -40px;
 	}
 }
 
-.contacts{
-	height: 1000px;
-	background: url(../img/Line%202.png) 74% 48% no-repeat, url(../img/Line%202.png) 74% 95% no-repeat,  url(../img/Line%204.png) 45% 140% no-repeat,  url(../img/Line%204.png) 83% 160% no-repeat;
-	
-}
-
 .contactss{
 color:#CED6E3;
-font-family: 'Defectica';
+
 font-style: normal;
 font-weight: 400;
 font-size: 96px;
@@ -321,7 +329,7 @@ font-weight: 300;
 font-size: 25px;
 line-height: 30px;
 color: #CED6E3;
-margin-left: 55%;
+
 }
 
 .contacts input{
@@ -356,10 +364,13 @@ background: none;
 .main_icon{
 	color:#CED6E3; 
 	margin-top: -256px;
+	text-decoration: none;
+	text-transform: none;
 }
 
 .main_icon{
 	padding-top: 40px;
+	
 }
 
 @media(max-width: 1199px){
@@ -388,7 +399,7 @@ background: none;
 	
 	
 	@media(max-width:1399px){
-		.servies{
+		.services{
 		background: none;
 		background: url(../img/Group%20333.png) 5% 40%/auto 25% no-repeat, url(../img/Group%2044.png) 35% 55%/auto 25% no-repeat, url(../img/Group%2055.png) 65% 40%/auto 25% no-repeat, url(../img/Group%2066.png) 95% 55%/auto 25% no-repeat; 
 	}
@@ -435,21 +446,23 @@ font-weight: 500;
 font-size: 24px;
 line-height: 29px;
 color: #0C5DA5;
-padding-top: 20px;
-	
+padding-top: 20px;	
+}
+.r{
+	text-decoration: none;
+	color: #CED6E3;
 }
 
 
-footer{
-	height: 300px;
-background: red;
-}
 
 @media(max-width:1399px){
-
-	.zxc{
-		margin-left: 31%;
+	.contactss{
+		text-align: center;
 	}
+	.zxc{
+		text-align: center;
+	}
+	
 	.case{
 		margin-top: -130px;
 	}
@@ -466,7 +479,7 @@ background: red;
 	}
 	.contacts{
 	background: none;
-	height: 700px;	
+	height: 515px;	
 	background-color: #0f0f0f;
 	margin-top: 250px;
 
@@ -485,13 +498,14 @@ font-size: 70px;
 	.main_icon_two{display: none;}
 }
 
+
 .main_icon_two h6{
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 29px;
-color: #0C5DA5;
+color:#0C5DA5; 
 }
 
 
@@ -502,20 +516,77 @@ text-decoration: none;
 }
 .main_icon_two{
 	color: #CED6E3;
-	padding-top: 65px;
-	margin-left: 7%;
+padding-top: 30px;
+	
+	
 }
 
-.phone_email{
-	margin-top: -129px;
+@media(max-width:767px){
+	.contacts{
+	background: none;
+	height: 700px;	
+	background-color: #0f0f0f;
+	}
+	
+	.contactss{
+		font-size: 50px;
+	}
+	.zxc{
+		font-size: 20px;
+	}
 }
 
-.insta{
-	margin-top: -143px;
-	margin-left: -50px;
+@media(max-width:482px){
+
+.contactss{
+		font-size: 40px;
+	}
+
+}
+footer{
+	height: 300px;
+background: #1d2c43;
+	margin-top: 50px;
+	color:#CED6E3; 
+}
+	
+.logof{
+	padding-top: 8%;
+	font-size: 30px;
 }
 
-.tg{
-	margin-left: 60px;
+.social i{
+
+	font-size: 30px;
+	margin: 5px;
+margin-top: -7px;
+}	
+.n{
+	padding-top: 10px;
+	font-size: 16px;
 }
+	
+	
+@media(max-width:965px){
+	footer{height: 250px;}
+}	
+@media(max-width:427px){
+	footer{height: 200px;}
+}		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

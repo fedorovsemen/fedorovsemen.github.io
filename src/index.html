@@ -10,31 +10,41 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="../src/css/font-awesome.css">
 	<link rel="stylesheet" href="css/style.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/loader.css">
 </head>
 
 <body>
+<div class="loader">
+  <div class="loader_inner"></div>
+</div>
+
+
 	<header>
 		<nav>
-		
-		<div class="container">
-			<div class="row">
-			
-				<div class="logo col-xxl-2 offset-xxl-1 col-xl-3 col-6">
-					<p>FEDOROV</p>
+
+			<div class="container">
+				<div class="row">
+
+					<div class="logo col-xxl-2 offset-xxl-1 col-xl-3 col-6">
+						<p>FEDOROV</p>
 					</div>
-			
-<div class="menu  col-xxl-7 offset-xxl-5 col-xl-8 offset-xl-4 col-lg-9 offset-lg-3
+
+					<div class="menu  col-xxl-7 offset-xxl-5 col-xl-8 offset-xl-4 col-lg-10 offset-lg-3
 d-none d-lg-block">
-	<ul>
-		<li><a href="#">ГЛАВНАЯ</a></li>		
-		<li><a href="#">ОБО МНЕ</a></li>
-		<li><a href="#">УСЛУГИ</a></li>
-		<li><a href="#">КЕЙСЫ</a></li>	
-		<li><a href="#">КОНТАКТЫ</a></li>			
-	</ul>
-		</div>
-	<!--<div class="col-6 offset-6 d-flex d-lg-none flex-column  justify-content-center"><div class="dropdown">
+						<ul>
+							<li><a href="#main">ГЛАВНАЯ</a></li>
+							<li><a href="#about_me">ОБО МНЕ</a></li>
+							<li><a href="#services">УСЛУГИ</a></li>
+							<li><a href="#case">КЕЙСЫ</a></li>
+							<li><a href="#contacts">КОНТАКТЫ</a></li>
+						</ul>
+					</div>
+				
+				<!--
+				<div class="col-5 offset-6 d-flex d-lg-none flex-column justify-content-center"><div class="dropdown">
   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     Ссылка выпадающего списка
   </a>
@@ -45,146 +55,228 @@ d-none d-lg-block">
     <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
   </ul>
 </div></div>
+				
 		-->
+			<div class="col-md-4 offset-md-8  d-flex d-lg-none flex-column justify-content-center ">
+						<div class="dropdown">
+							<a class="btn btn-outline-info" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+							<i class="fa fa-bars " aria-hidden="true"></i>
+							</a>
+
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<li><a class="dropdown-item" href="#me">обо мне</a></li>
+								<li><a class="dropdown-item" href="#services">услуги</a></li>
+								<li><a class="dropdown-item" href="#case">кейсы</a></li>
+								<li><a class="dropdown-item" href="#statistic">прайс</a></li>
+								<li><a class="dropdown-item" href="#reviews">отзывы</a></li>
+								<li><a class="dropdown-item" href="#contacts">контакты</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
-</div>
 
-</nav>
+		</nav>
 	</header>
-	
-	
-	<main class="main">
-	<div class="container">
-	<div class="row ">
-	<div class="title_container">
-		<p class="fed col-xxl-6 offset-xxl-1 col-xl-7 offset-xl-0">fedorov</p>
-		<p class="sem col-xxl-3 offset-xxl-8 col-md-4 offset-md-7 col-sm-8 offset-sm-4">semyon</p>
-		<p class="made col-xxl-3 offset-xxl-1 col-xl-4 col-lg-5 col-md-6">создаю эффективный инструмент для продаж - удобные и понятные сайты</p>
-		
-		<div class="case_Input col-xxl-1 offset-xxl-1 offset-xl-0"><ul><li><a href="#">Кейсы</a></li></ul></div>
-		
-		  <div class="second_Input col-xxl-2 offset-xxl-2 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-2  "><ul><li><a href="#"> Оставь заявку</a></li></ul></div>
-		
-			
-		
-		
-	</div>
-	</div>
-	</div>
-	
 
-</main>
 
-	<div class="about_me">
+	<main class="main" id="main">
+		<div class="container">
+			<div class="row ">
+				<div class="title_container">
+					<p class="fed col-xxl-6 offset-xxl-1 col-xl-7 offset-xl-0">fedorov</p>
+					<p class="sem col-xxl-3 offset-xxl-8 col-md-4 offset-md-7 col-sm-8 offset-sm-4">semyon</p>
+					<p class="made col-xxl-3 offset-xxl-1 col-xl-4 col-lg-5 col-md-6">создаю эффективный инструмент для продаж - удобные и понятные сайты</p>
+
+					<div class="case_Input col-xxl-1 offset-xxl-1 offset-xl-0">
+						<ul>
+							<li><a href="#case">Кейсы</a></li>
+						</ul>
+					</div>
+
+					<div class="second_Input col-xxl-2 offset-xxl-2 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-2  ">
+						<ul>
+							<li><a href="#contacts"> Оставь заявку</a></li>
+						</ul>
+					</div>
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+	</main>
+
+	<div class="about_me" id="about_me">
 		<p class="aboutMe col-xxl-5 offset-xxl-2 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1">ОБО МНЕ</p>
 		<p class="FS col-xxl-3 offset-xxl-2 offset-xl-1 offset-lg-1 offset-1">Cемен Федоров</p>
-		<p class="im col-xxl-3 offset-xxl-2 col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-4 offset-md-1 col-sm-5 offset-1">Я UI/UX веб-дизайнер. Разрабатываю дизайн сайтов для малого, среднего и крупного бизнеса.
+		<p class="im col-xxl-3 offset-xxl-2 col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-6 offset-1">Я UI/UX веб-дизайнер. Разрабатываю дизайн сайтов для малого, среднего и крупного бизнеса.
 			Считаю, что сайт должен выполнять поставленные задачи, быть удобен и эстетичен. Поэтому при проектировании дизайна, особое внимание уделяю структуре и логике взаимодействия. Люблю понятные интерфейсы.</p>
 	</div>
 
 
 
 
-	<div class="services">
-	<p class="services_p col-xxl-5 offset-xxl-7 col-lg-5 offset-lg-7">УСЛУГИ</p>
-		<!--<section class="One  col-xxl-3 offset-1 text-center">
-			<img class="mini_img1 " src="../src/img/support%201.png" alt="">
-			<p class="services1 ">Подготовка проекта</p>
-			<p class="Vectorbig1">Анализ ниши, целевой <br>аудитории и конкурентов. <br>Подготовка прототипа</p>
-		</section>
-
-		<section>
+	<div class="services" id="services">
+		<p class="services_p col-xxl-5 offset-xxl-7 col-lg-5 offset-lg-7">УСЛУГИ</p>
 		
-			<img class="mini_img2" src="../src/img/free-icon-programming-3973133%201%20(1).png" alt="">
-			<p class="services2 offset-xxl-4">Сайты под ключ</p>
-			<p class="Vectorbig1 px-4 col-xxl-2 offset-xxl-3">Создание сайтов любой сложности - от landing page до корпоративных сайтов</p>
-		</section>
-
-		<section>
-		
-			<img src="../src/img/free-icon-seo-856388%201.png" alt="">
-			<p class="services3">SEO</p>
-			<p class="Vectorbig1">Раскрутка и продвижение Вашего сайта, SEO оптимизация</p>
-		</section>
-
-		<section>
-		
-			<img src="../src/img/free-icon-programming-3973133%202.png" alt="">
-			<p class="services4">Редизайн сайтов</p>
-			<p class="Vectorbig1">Дизайн
-				для устаревших сайтов.
-				Расширение функционала. Для сайтов, изначально спроектированых неверно.</p>
-		</section>
-		-->
 	</div>
 
 
-	<div class="case">
+	<div class="case" id="case">
 		<p class="case_i col-xxl-4 offset-xxl-1 col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-4 offset-md-1 col-sm-6 offset-sm-1">КЕЙСЫ</p>
-	<img class="case_img col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-10 offset-sm-1" src="../src/img/2022-09-18_19-58-11.png"alt="">
-			<p class="landing col-xxl-3 offset-xxl-7 col-xl-3 offset-xl-7 col-lg-4 offset-lg-7 col-md-4 offset-md-7 col-sm-7 offset-sm-1">Landing Page - <br>"Fedorov Semyon"</p>
-	<a class="case_a col-xxl-2 offset-xxl-7 col-xl-2 offset-xl-7 col-lg-2 offset-lg-7 col-md-4 offset-md-7 col-sm-3 offset-sm-1" href="#">Перейти на сайт</a>
-		
-	</div>
-	
-	<div class="contacts">
-	
-		<p class="contactss col-xxl-8 offset-xxl-4 col-xl-8 offset-xl-3">оставьте заявку</p>
-		<p class="zxc col-xxl-5 offset-xxl-6 col-xl-6 ">Свяжитесь со мной и мы обсудим ваш проект</p>
-		<form action="#" method="post">
-			<div class="amd">
-				<div class="c col-xxl-5 offset-xxl-6 col-xl-4 offset-xl-5">
-					<div class="name "><input type="text" placeholder="Ваше имя" required id="inputName" name="user_text"></div>
-					
-					<div class="phone"><input class="secondInput " required id="inputTel" type="phone" placeholder="Ваш телефон" name="user_phone"></div>
-				
-<div class="text_input"><input type="text" placeholder="Как с вами лучше связаться" required id="inputName" name="user_text"></div>
-			<div class="text_inputTwo"><input type="text" placeholder="Опишите вашу заявку" required id="inputName" name="user_text"></div>
-				</div>	
-			</div>
-	
+		<img class="case_img col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-10 offset-sm-1" src="../src/img/2022-09-18_19-58-11.png" alt="">
+		<p class="landing col-xxl-3 offset-xxl-7 col-xl-3 offset-xl-7 col-lg-4 offset-lg-7 col-md-4 offset-md-7 col-sm-7 offset-sm-1">Landing Page - <br>"Fedorov Semyon"</p>
+		<a class="case_a col-xxl-2 offset-xxl-7 col-xl-2 offset-xl-7 col-lg-2 offset-lg-7 col-md-4 offset-md-7 col-sm-3 offset-sm-1" href="#">Перейти на сайт</a>
 
-			<input class="no offset-xxl-6 col-xl-2 offset-xl-6 " type="submit" value="Отправить">
-		</form>
-
-<div class="main_icon offset-xxl-2 ">
-		<h6 class="">Telegram</h6>
-		<p>+7(906)134-06-07</p>
-	     <h6>VK</h6> 
-	     <p>vk.com/sfedorov4</p>
-		<h6>E-mail</h6>
-		<p>FedorovWebDeveloper@yandex.ru</p>
-		<h6>Instagram</h6>
-		<p>sfedorov4</p>
 	</div>
-	
-	
+	<div class="container" id="contacts">
+		<div class="row ">
+			<div class="contacts">
+
+				<p class="contactss col-xxl-9 offset-xxl-3 ">оставьте заявку</p>
+				<p class="zxc col-xxl-5 offset-xxl-6 col-xl-6 offset-xl-3 ">Свяжитесь со мной и мы обсудим ваш проект</p>
+				<form action="#" method="post">
+					<div class="amd">
+						<div class="c col-xxl-5 offset-xxl-6 col-xl-4 offset-xl-5">
+							<div class="name "><input type="text" placeholder="Ваше имя" required id="inputName" name="user_text"></div>
+
+							<div class="phone"><input class="secondInput " required id="inputTel" type="phone" placeholder="Ваш телефон" name="user_phone"></div>
+
+							<div class="text_input"><input type="text" placeholder="Как с вами лучше связаться" required id="inputName" name="user_text"></div>
+							<div class="text_inputTwo"><input type="text" placeholder="Опишите вашу заявку" required id="inputName" name="user_text"></div>
+						</div>
+					</div>
+
+
+					<input class="no offset-xxl-6 col-xl-2 offset-xl-6 " type="submit" value="Отправить">
+				</form>
+
+				<div class="main_icon offset-xxl-2 ">
+					<h6 class="">Telegram</h6>
+					<p>+7(906)134-06-07</p>
+					<h6>VK</h6>
+					<a href="https://vk.com/sfedorov4">
+						<p class="r">vk.com/sfedorov4</p>
+					</a>
+					<h6>E-mail</h6>
+					<p>FedorovWebDeveloper@yandex.ru</p>
+					<h6>Instagram</h6>
+					<p>@fedorov.semyon</p>
+				</div>
+
+				<!--
 	<div class="main_icon_two">
 	<div class="tg ">
-		<h6 class="col-xl-3 offset-xl-2 col-lg-2 offset-lg-2">Telegram</h6>
-		<p class="col-xl-3 offset-xl-2 col-lg-2 offset-lg-2">+7(906)134-06-07</p>
+		<h6 class="">Telegram</h6>
+		<p class="">+7(906)134-06-07</p>
 	 
-	        <h6 class="VK col-xl-3 offset-xl-2 col-lg-2 offset-lg-2">VK</h6> 
-	  <a  class="col-xl-3 offset-xl-2 col-lg-2 offset-lg-2" 
+	        <h6 class="">VK</h6> 
+	  <a  class="" 
  href="https://vk.com/sfedorov4">vk.com/sfedorov4</a>
 	   </div>
 	  <div class="phone_email">
-	  <h6 class="col-xl-3 offset-xl-5 col-lg-2 offset-lg-5">Телефон</h6>
-	<p  class="col-xl-3 offset-xl-5">+7(906)134-06-07</p>
-		<h6 class=" EMAIL col-xl-3 offset-xl-5">E-mail</h6>
-		<p class="col-xl-3 offset-xl-5">FedorovWebDeveloper@ya.ru</p>
-		</div>
-		<div class="insta">
-		<h6 class="col-xl-3 offset-xl-8">WhatsApp</h6>
-		<p class="col-xl-3 offset-xl-8">+7(906)134-06-07</p>
-		<h6 class=" INSTAGRAM col-xl-3 offset-xl-8">Instagram</h6>
-		<a class="col-xl-3 offset-xl-8" href="https://www.instagram.com/fedorov.semyon">@fedorov.semyon</a>
-		</div>
-	</div>
-	</div>
-<footer>
 	
-</footer>
+	<div class="i">
+		<h6 class="">E-mail</h6>
+		<p class="">FedorovWebDeveloper@ya.ru</p>
+		</div>
+		</div>
+		
+		<div class="insta">
+			
+		
+		<div class="i">
+		<h6 class=" ">Instagram</h6>
+		<a class=" " href="https://www.instagram.com/fedorov.semyon ">@fedorov.semyon</a>
+		</div>
+		</div>
+	</div>
+	-->
+
+
+
+
+
+
+				<div class=" row justify-content-center text-center main_icon_two">
+
+					<div class="col-lg-3">
+						<div class="info bg-img " data-background="img/map.png" style="background-image: url(&quot;img/map.png&quot;);">
+							<div class="item">
+								<div class="cont">
+									<h6>Vkontakte : </h6>
+									<a href="https://vk.com/sfedorov4">
+										<p>Vk.com/sfedorov4</p>
+									</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="cont">
+									<h6>Instagram : </h6>
+									<a href="https://www.instagram.com/fedorov.semyon">
+										<p>@fedorov.semyon</p>
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="info bg-img mb-md50" data-background="img/map.png" style="background-image: url(&quot;img/map.png&quot;);">
+
+							<div class="item">
+								<div class="cont">
+									<h6>Email : </h6>
+									<a href="mailto:FedorovWebDeveloper@ya.ru">
+										<p>FedorovWebDeveloper@ya.ru</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cont">
+								<h6>Телефон : </h6>
+								<a href="tel:+79061340607">
+									<p>+79061340607</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<footer class="text-center justify-content-center">
+		<div class="container">
+<div class="row">
+			<p class="logof">FEDOROV</p>
+			<div class="social">
+				<a class="if" href="https://www.instagram.com/fedorov.semyon">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</a>
+
+
+				<a href="https://vk.com/sfedorov4">
+					<i class="fa fa-vk" aria-hidden="true"></i>
+				</a>
+                
+                <a href="https://t.me/fedorov_semyon"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+			</div>
+<p class="n">© 2020 Fedorov Semyon. All Rights Reserved.</p>
+
+		</div>
+</div>
+	</footer>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/myScript.js"></script>
 </body>
 
 </html>
