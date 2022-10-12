@@ -32,25 +32,29 @@ $("#inputTel").mask("+7(999) 999-9999");
 	$('html, body').animate({
 		scrollTop: $(valHref).offset().top -60 + "px"
 	});
+		});
 
 	
 	
-	
-$(window).scroll(() =>{
-            let scrollDistance = $(window).scrollTop();
-        $(".section").each((i, el) => {
-                if ($(el).offset().top - $("nav").outerHeight() <= scrollDistance) {
-                    $("nav a").each((i, el) => {
-                        if ($(el).hasClass("active")) {
-                            $(el).removeClass("active");
-                        }
-                    });
-                    $('nav li:eq('+ i +')').find('a').addClass('active'); 
-                }
-        });
-});
-	
-	
+ 
+     $(window).scroll(() => {
+               let scrollDistance = $(window).scrollTop();
+
+               $('.section').each((i, el) => {
+
+                   if ($(el).offset().top - $('nav').outerHeight() <= scrollDistance) {
+                       $('nav a').each((i, el) => {
+                           if ($(el).hasClass('active')) {
+                               $(el).removeClass('active');
+                           }
+                       });
+
+                       $('nav li:eq(' + i + ')').find('a').addClass('active');
+                   }
+
+               });
+           });
+    
 	
 	
 	
