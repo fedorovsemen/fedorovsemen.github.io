@@ -19,8 +19,8 @@ $mail->Password = 'ctvtyctvtyW2211'; // Ваш пароль от почты с �
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 995; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('FedorovWebDeveloper@mail.ru'); // от кого будет уходить письмо?
-$mail->addAddress('magib59166@kaimdr.com');     // Кому будет уходить письмо 
+$mail->setFrom('FedorovWebDeveloper@yandex.ru'); // от кого будет уходить письмо?
+$mail->addAddress('fed.5emen@yandex.ru');     // Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -30,7 +30,7 @@ $mail->addAddress('magib59166@kaimdr.com');     // Кому будет уход�
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с тестового сайта';
-$mail->Body    = '' .$text . ' оставил заявку!;
+$mail->Body    = . $text . "<br>" .$phone . "<br>" . $text . "<br>" . $text;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
